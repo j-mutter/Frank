@@ -33,7 +33,7 @@ class Frankifier
 
   private
   def decide_on_project
-    projects = Pathname.glob( @root+'*.xcodeproj' )
+    projects = Pathname.glob( @root+'**/*.xcodeproj' )
     xcodeproj = case projects.size
     when 0
       raise "There are no .xcodeproj files in this directory. Please move to your root project directory and try again."
