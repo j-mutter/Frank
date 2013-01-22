@@ -76,6 +76,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2CE959DD16A77DA4000D1540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6DA5E981468C87300525864 /* Frank.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 305CA7721642059400C4ACE5;
+			remoteInfo = FrankMac;
+		};
+		2CE959DF16A77DA4000D1540 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6DA5E981468C87300525864 /* Frank.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 305CA7A2164205F800C4ACE5;
+			remoteInfo = CocoaHTTPServerMac;
+		};
 		C95979951608508E00399B16 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D6DA5E981468C87300525864 /* Frank.xcodeproj */;
@@ -531,6 +545,8 @@
 			children = (
 				D6DA5EA41468C87400525864 /* libFrank.a */,
 				C95979961608508E00399B16 /* libCocoaHTTPServer.a */,
+				2CE959DE16A77DA4000D1540 /* libFrankMac.a */,
+				2CE959E016A77DA4000D1540 /* libCocoaHTTPServerMac.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -611,6 +627,20 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		2CE959DE16A77DA4000D1540 /* libFrankMac.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFrankMac.a;
+			remoteRef = 2CE959DD16A77DA4000D1540 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2CE959E016A77DA4000D1540 /* libCocoaHTTPServerMac.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCocoaHTTPServerMac.a;
+			remoteRef = 2CE959DF16A77DA4000D1540 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		C95979961608508E00399B16 /* libCocoaHTTPServer.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
